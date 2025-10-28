@@ -7,7 +7,7 @@
 
 The core objective is to tackle complex, domain-specific NLP challenges, including sentiment analysis of implicit opinions, joint extraction of product features and their associated sentiment, and unsupervised discovery of user complaint topics.
 
-## ✨ Key Features
+## Key Features
 
 *   **LLM-based Sentiment Analysis**: Leverages the in-context learning capabilities of LLMs (e.g., Qwen) for high-accuracy sentiment classification using few-shot prompting, without any model training.
 *   **Baseline Comparison**: Provides robust baselines using local Transformer models (e.g., BERT, RoBERTa) for both zero-shot and fine-tuning scenarios.
@@ -18,7 +18,7 @@ The core objective is to tackle complex, domain-specific NLP challenges, includi
 *   **Innovative Unsupervised Clustering**: A novel two-stage LLM workflow ("Discover & Classify") that first identifies emergent complaint categories from raw negative reviews and then classifies each review into these dynamically generated topics.
 *   **Flexible Evaluation**: Includes custom evaluation scripts that implement complex, rule-based logic for a more nuanced and business-relevant assessment of model performance.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -37,7 +37,7 @@ The core objective is to tackle complex, domain-specific NLP challenges, includi
 └── ... (Other data and result directories)
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to set up and run the project.
 
@@ -77,7 +77,7 @@ Ensure you have Python 3.8 or higher installed.
     *   `data_path` / `DATA_FILE_PATH`: The path to your input data file (e.g., `./test.xlsx`).
     *   `LOCAL_MODEL_PATH`: The local path to your pre-trained Transformer model (e.g., `./bge-large-zh-v1.5/`).
 
-## 🛠️ Modules Explained
+## Modules Explained
 
 This project is structured as a series of experiments and tasks.
 
@@ -129,6 +129,6 @@ The "selective" ABSA approach (`feature_extract2.py`) can generate powerful busi
 
 This kind of analysis can directly inform product development, quality control, and marketing strategies.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
