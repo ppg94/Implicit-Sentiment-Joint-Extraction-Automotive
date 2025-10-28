@@ -88,7 +88,7 @@ These scripts compare different methods for classifying the overall sentiment of
 *   **`api.py` (LLM Few-Shot Learning)**: Directly uses an LLM for sentiment classification via a carefully crafted prompt containing a few examples (3 negative, 2 positive). It runs a 10-fold cross-validation to ensure robust evaluation.
 *   **`baseline_1.py` (Zero-Shot Baseline)**: Establishes a baseline by evaluating a pre-trained local Transformer model's performance on the dataset *without any fine-tuning*.
 *   **`baseline_2.py` (Fine-Tuning Baseline)**: Measures the performance ceiling of traditional methods by fine-tuning a local Transformer model on the training data for each fold of a 10-fold cross-validation.
-*   **`enhance.py` (LLM-Enhanced Fine-Tuning)**: Explores data augmentation by first using an LLM to paraphrase the training data. The augmented data is then combined with the original data to fine-tune the local model, aiming to boost its performance.
+
 
 ### Aspect-Based Sentiment Analysis (ABSA)
 
