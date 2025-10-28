@@ -22,19 +22,17 @@ The core objective is to tackle complex, domain-specific NLP challenges, includi
 
 ```
 .
-├── 1.md                       # Original project description draft
+├── readme.md                       # Original project description draft
+├──.gitclone
 ├── api.py                     # Method 1: LLM Few-Shot Sentiment Analysis
 ├── baseline_1.py              # Baseline A: Local Model Zero-Shot Sentiment Analysis
 ├── baseline_2.py              # Baseline B: Local Model Fine-Tuning Sentiment Analysis
-├── enhance.py                 # Method 2: LLM Data Augmentation + Fine-Tuning
-├── feature_extract.py         # Task A: "Extractive" Aspect & Sentiment Extraction (LLM)
-├── feature_extract2.py        # Task B: "Selective" Aspect & Sentiment Extraction (LLM)
-├── clustering.py              # Task C: Unsupervised Negative Feedback Clustering (LLM)
+├── feature_extract2.py        # Task A: "Selective" Aspect & Sentiment Extraction (LLM)
+├── clustering.py              # Task B: Unsupervised Negative Feedback Clustering (LLM)
 ├── ensure.py                  # Custom evaluation script for Task A
 ├── get_dict.py                # Utility to generate feature list from data
 ├── features_list.json         # Pre-defined list of automotive features for Task B
 ├── product_issue_leaderboard.csv # Example output from feature_extract2.py
-└── ... (Other data and result directories)
 ```
 
 ## Getting Started
