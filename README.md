@@ -116,16 +116,7 @@ The "selective" ABSA approach (`feature_extract2.py`) can generate powerful busi
 
 | pred_feature | 正面 (Positive) | 负面 (Negative) | 总计 (Total) | 负面比例 (Negative Ratio) |
 | :----------- | :-------------- | :-------------- | :----------- | :------------------------ |
-| 油耗         | 69              | 76              | 145          | 0.52                      |
-| 发动机       | 6               | 42              | 48           | 0.88                      |
-| 后备箱       | 8               | 38              | 46           | 0.83                      |
-| 配置         | 16              | 36              | 52           | 0.69                      |
-| 刹车         | 1               | 31              | 32           | 0.97                      |
-| 座椅         | 3               | 29              | 32           | 0.91                      |
-| 大灯         | 3               | 28              | 31           | 0.90                      |
-| 动力         | 25              | 28              | 53           | 0.53                      |
-| 后排         | 8               | 26              | 34           | 0.76                      |
-| 中控         | 1               | 23              | 24           | 0.96                      |
+
 
 This kind of analysis can directly inform product development, quality control, and marketing strategies.
 
